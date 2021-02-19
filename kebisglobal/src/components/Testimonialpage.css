@@ -1,0 +1,89 @@
+.App {
+  background-color:hsl(0, 0%, 100%);
+  font-family: "Spartan";
+  font-size: 15px;
+}
+
+
+
+.top {
+  display: flex;
+  flex-flow: wrap;
+  margin: 0 20px;
+  width: auto;
+  justify-content: space-between;
+}
+
+
+.span {
+  margin: 2px;
+  width: 340px;
+  height: auto;
+  font-weight: bolder;
+  word-wrap: break-word;
+}
+.span p:first-child{
+  font-size: 30px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+.text {
+  color: hsl(303, 10%, 53%);
+}
+
+.rating{
+  display: block;
+  margin: 10px;
+  
+}
+
+.rating > div {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  background: hsl(300, 24%, 96%);
+  
+ 
+}
+
+.rating > div > span {
+  margin: 10px;
+}
+
+.rate {
+  color: gold;
+}
+
+.rate > span {
+  margin: 2px;
+}
+
+.testimonials{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.img{ 
+  float: left;
+  border-radius: 50%;
+  height: 70px;
+}
+
+.card {
+  display: block;
+  height: fit-content;
+  text-align: center;
+  width: 370px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color:hsl(0, 0%, 100%);
+  word-wrap: break-word;
+  background: hsl(300, 43%, 22%);
+}
+
+
