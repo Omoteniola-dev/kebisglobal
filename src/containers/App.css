@@ -1,0 +1,41 @@
+.App {
+    background-color: rgb(107, 175, 107);
+}
+
+.preview {
+    background: url('../images/background.jpg');
+    background-size: 100% 100%;
+}
+
+#dropdown{
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    width: max-content;
+    position: absolute;
+    background-color: white;
+    padding: 12px 16px;
+    z-index: 1;
+    color: black;
+    font-size: 20px;
+}
+
+.dropdown-content > p{
+    padding: 10px 16px;
+    
+}
+
+.dropdown-content >p:hover {
+    background: rgb(82, 84, 85);
+}
+
+#dropdown:hover > .dropdown-content{
+    display: block;
+    margin: 10vh;
+}
+
+.footer {
+    margin-top: 70vh
+}

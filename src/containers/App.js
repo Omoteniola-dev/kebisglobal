@@ -4,6 +4,7 @@ import Home from "./Home";
 import Testimonialpage from "../components/Testimonialpage";
 import Faq from "../components/Faq";
 import About from "../components/About";
+import Footer from "../components/Footer";
 import './App.css';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
@@ -13,7 +14,7 @@ class App extends React.Component {
     
     return(
       <Router>
-        <div className="duration-1000">
+        <div className="App">
           <div className="fixed inset-0">
             <Navbar />
           </div>
@@ -23,6 +24,10 @@ class App extends React.Component {
             <Route path="/Testimonialpage" component={Testimonialpage}/>
             <Route path="/Faq" component={Faq}/>
           </Switch>
+          <div className="footer">
+            <Footer />
+          </div>
+          
         </div>
       </Router>
       

@@ -6,7 +6,7 @@ class About extends Component {
 
     render(){
         return(
-            <div className="h-screen m-16 lg:m-18">
+            <div className="h-screen m-10 pt-4 lg:m-18">
                 <h1 className="font-extrabold text-3xl text-black-100 text-center p-6">MEET OUR TEAM</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

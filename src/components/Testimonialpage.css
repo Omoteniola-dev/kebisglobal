@@ -40,12 +40,13 @@
 
 .rating > div {
   text-align: center;
+  font-weight: bolder;
   margin: 10px;
   padding: 10px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 3px;
-  background: hsl(300, 24%, 96%);
+  background: rgb(123, 213, 123)
   
  
 }
@@ -83,7 +84,7 @@
   border-radius: 10px;
   color:hsl(0, 0%, 100%);
   word-wrap: break-word;
-  background: hsl(300, 43%, 22%);
+  background: rgb(43, 170, 43);
 }
 
 

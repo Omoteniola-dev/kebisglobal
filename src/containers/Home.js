@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
 import ServiceList from "../components/ServiceList";
-import Cta from "../components/Cta";
 import web from "../images/web-programming.svg";
 import app from "../images/app-design.svg";
 import office from "../images/office.svg";
@@ -43,9 +42,7 @@ class Home extends React.Component {
                 <div>
                 <ServiceList data={Services}/>
                 </div>
-                <div>
-                <Cta />
-                </div>
+                
             </div>
     )
       }

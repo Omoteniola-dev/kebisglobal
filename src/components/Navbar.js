@@ -39,8 +39,8 @@ const Navbar = () => {
                 </Link>
                 </li>
                 <li className="text-white py-5 px-5 sm:border-b-2 border-transparent hover:text-blue-300 sm:hover:text-blue-300 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
-                <Link to="">
-                    <p className="text-base antialiased dropdown">Services</p>
+                <Link to="" id="dropdown" >
+                    <p className="text-base antialiased" >Services</p>
                     <div className="dropdown-content">
                         <p>Web development</p>
                         <p>App development</p>
