@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 import Header from "../components/Header";
 import ServiceList from "../components/ServiceList";
 import web from "../images/web-programming.svg";
 import app from "../images/app-design.svg";
 import office from "../images/office.svg";
 
-class Home extends React.Component {
+class Home extends Component {
     constructor(){
         super()
         this.state = {
@@ -13,20 +13,26 @@ class Home extends React.Component {
             {
             "id": 1,
             "svg": web, 
-            "Service": "Web development",
+            "Service": "Web design and development",
             "text": "We build high performing and scalable web applications to meet your requirements."
           },
           {
             "id":2,
             "svg": app,
-            "Service": "App development",
-            "text": "Android and iOS applications for your users in modern fashion."
+            "Service": "Hardware",
+            "text": "We provide sales of all kinds of computer hardware. From regular desktop computers of different configuration, notebooks and laptops,monitors, combo printers and servers for all levels of users."
           },
           {
             "id": 3,
             "svg": office,
-            "Service": "Microsoft 365 setup and automation",
-            "text": "Specialised IT professionals with years of experience"
+            "Service": "Business Process Automation",
+            "text": "We have specialised IT professionals that use low-code Microsoft based applications tools to automate processes that exists in a business setting."
+          },
+          {
+            "id": 4,
+            "svg": null,
+            "Service": "ICT training",
+            "text": "We offer ICT training in Microsoft 365 User and Administrator, SharePoint administrator, Power apps administrator, windows server administrator."
           }
           ]
         }
@@ -38,7 +44,9 @@ class Home extends React.Component {
                 <div className="preview">
                 <Header />
                 </div>
-                
+                {
+                  //add partner bar component here.
+                }
                 <div>
                 <ServiceList data={Services}/>
                 </div>

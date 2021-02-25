@@ -33,7 +33,7 @@ class Contactpage extends React.Component{
                     {
                             options.map((option, i)=>{
                                 return(
-                                    <div className="w-auto lg:w-2/5 bg-gray-200 rounded-xl mt-8 px-4 py-8" key={i}>
+                                    <div className="w-auto lg:w-2/5 bg-blue-400 rounded-xl mt-8 px-4 py-8" key={i}>
                                         <p className="text-xl font-bold lg:text-3xl py-8">{options[i].option}</p>
                                         <p className="py-6">{options[i].tag}</p>
                                         <p className="w-3/4 mx-8 text-center py-2 bg-gray-500 rounded-2xl hover:bg-gray-300">{options[i].action}</p>

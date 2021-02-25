@@ -40,7 +40,7 @@ class Testimonialpage extends Component {
       <div className="App h-screen m-10 pt-4 lg:pt-8 lg:m-18 ">
         <div className="top">
           <div className="span">
-            <p>10,000+ of our users love our products</p>
+            <p>10,000+ of our users love our service</p>
     
             <p className="text">We only provide great products combined with excellent customer service.
               See what our satisfied customers are saying about our services.</p>
