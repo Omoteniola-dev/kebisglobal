@@ -6,7 +6,7 @@ class Faq extends React.Component{
             <div className="h-screen m-10 pt-4 lg:m-18">
                 <h1 className="text-center font-extrabold text-3xl p-4">FAQ page</h1>
                 <nav className="fixed lg:top-0 lg:left-0 lg:h-full lg:w-3/5 m-10 pt-4 lg:m-18">
-                    <header className="text-xl lg:font-2xl p-5">Documentation</header>
+                    
                     <ul className="text-lg px-2">
                         <li className="py-4"><a href="#philosophy">CORPORATE PHILOSOPHY</a></li>
                         <li className="py-4"><a href="#Our_Mission">Our Mission</a></li>
@@ -86,43 +86,7 @@ class Faq extends React.Component{
                     </p>
                     </article>
                 </section>
-                <section class="main-section" id="MANAGEMENT_TEAM">
-                    <header className="text-xl lg:text-3xl text-center">MANAGEMENT TEAM</header>
-                    <article className="text-xl pb-7">
-                    
-                    <h2 className="text-xl lg:text-3xl text-left">Oyebanjo, Kehinde</h2>
-                    <p>
-                    <p className="text-base">Solution Consultant</p>
-                     A  graduate  of  Electronics  &  Electrical  Engineering  from  the  Obafemi Awolowo  University  Ile-Ife,  Osun  State,
-                     with  a  master’s  degree  in information technology from the University of Lagos.
-                      Kehinde started his IT Professional Career as a network administrator. 
-                      He later got experience with systems administration, and over the last 13 years have been involved with 
-                       Network/System  Administration,  Business  Automation,  IT  Security, Infrastructure  and 
-                        Cloud  services  in  different  sectors  like  microfinance banks, construction, consulting, and outsourcing. 
-                         He later moved on to start Kebis Global Consultancy Services in 2018 to explore the growing ICT sector of the local economy
-                     and carve a niche in the virgin and emerging trends in the Information and Communications Technology industry. He is happily married. 
-                    </p>
-                    
-                    <h2 className="text-xl lg:text-3xl text-left pt-4">Adeoye, Kunle</h2>
-                    <p>
-                    <p className="text-base">IT Security Consultant</p> A Highly resourceful and motivated team player, Kunle is a graduate ofComputer Engineering,
-                     Ladoke Akintola University of Technology. He is an experienced Azure Cloud and Systems Engineer with over
-                    7 years in the IT industry with major focus in Cyber Security, Cloud Computing, Project Management,  IT  Administration  and  Control.
-                    He’s  Passionate  about eliminating barriers, improving processes, reducing costs and empowering engineering in all stages of  the Software
-                     Development Life Cycle (SDLC), Agile environment, Computer Networks and Security
-                     
-                    </p>
-
-                    <h2 className="text-xl lg: text-3xl text-left pt-4">Damilare Tinubu</h2>
-                    <p>
-                     <p className='text-base'>Infrastructure Consultant</p>A graduate of Computer Engineering from Olabisi Onabanjo University.
-                     He is a resourceful and   motivated team player with over 2 years of experience in Systems Administration,
-                      Infrastructure & Cloud services. He is involved in the deployment of Infrastructure solutions,
-                     helps clients achieve more with less and provide direction in achieving a modern workplace.
-                    </p>
-
-                    </article>
-                </section>
+                
             </main>
 
             </div>
