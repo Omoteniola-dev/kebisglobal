@@ -15,7 +15,7 @@ html, body{
     display: none;
     width: max-content;
     position: absolute;
-    background-color: rgb(51, 97, 214);
+    background-color: whitesmoke;
     padding: 10px 12px;
     z-index: 1;
     color: black;
@@ -28,7 +28,7 @@ html, body{
 }
 
 .dropdown-content >p:hover {
-    background: rgb(51, 97, 214);
+    background: whitesmoke;
 }
 
 #dropdown:hover > .dropdown-content{
