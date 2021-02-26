@@ -7,10 +7,10 @@ class About extends Component {
     render(){
         return(
             <div className="h-screen mt-10 pt-4 lg:mt-18">
-                <h1 className="text-center font-extrabold text-3xl ml-12 p-4">FAQ page</h1>
+                <h1 className="text-center font-extrabold text-3xl ml-12 p-4"> WHO ARE WE?</h1>
              
             <main className="p-6 lg:absolute lg:ml-5 lg:ml-60 lg:p-10">
-            <div className="bg-blue-500 px-10 py-4">
+            <div className="bg-gray-100 px-10 py-4">
                 <section class="main-section" id="philosophy">
                     <header className="text-xl font-bold lg:text-3xl text-center">CORPORATE PHILOSOPHY</header>
                     <article className="text-xl pb-7">
@@ -78,11 +78,11 @@ class About extends Component {
                     </article>
                 </section>
                 </div>
-                <section class="main-section" id="MANAGEMENT_TEAM">
-                    <header className="text-2xl font-extrabold lg:text-3xl text-center">MANAGEMENT TEAM</header>
+                <section className="mt-8" id="MANAGEMENT_TEAM">
+                    <header className="text-3xl font-extrabold lg:text-4xl lg:font-extrabold text-center">MANAGEMENT TEAM</header>
                     <div className="text-xl pb-7">
                     
-                    <div className="w-full p-8 bg-blue-400 rounded-xl mt-4 shadow-xl lg:shadow-2xl">
+                    <div className="w-full p-8 bg-gray-100 rounded-xl mt-4 shadow-xl lg:shadow-2xl">
                         <h2 className="text-xl font-bold lg:text-3xl text-left">Oyebanjo, Kehinde</h2>
                         
                         <p className="text-base">Solution Consultant</p>
@@ -97,7 +97,7 @@ class About extends Component {
                         </p>
                     </div>
                     
-                    <div className="w-full p-8 bg-blue-400 rounded-xl mt-4 shadow-xl lg:shadow-2xl">
+                    <div className="w-full p-8 bg-gray-100 rounded-xl mt-4 shadow-xl lg:shadow-2xl">
                         <h2 className="text-xl font-bold lg:text-3xl text-left pt-4">Adeoye, Kunle</h2>
                        
                         <p className="text-base">IT Security Consultant</p> A Highly resourceful and motivated team player, Kunle is a graduate ofComputer Engineering,
@@ -110,7 +110,7 @@ class About extends Component {
                     </div>
                     
 
-                    <div className="w-full p-8 bg-blue-400 rounded-xl mt-4 shadow-xl lg:shadow-2xl">
+                    <div className="w-full p-8 bg-gray-100 rounded-xl mt-4 shadow-xl lg:shadow-2xl">
                         <h2 className="text-xl font-bold lg:text-3xl text-left pt-4">Damilare Tinubu</h2>
                         
                         <p className='text-base'>Infrastructure Consultant</p>A graduate of Computer Engineering from Olabisi Onabanjo University.
@@ -123,7 +123,7 @@ class About extends Component {
                     </div>
                 </section>
             </main>
-            <nav className="invisible lg:visible lg:fixed lg:top-0 lg:left-0 lg:h-full lg:w-1/5 lg:mt-16 border-solid border-4 border-blue-700">
+            <nav className="invisible lg:visible lg:fixed lg:top-0 lg:left-0 lg:h-full lg:w-1/5 lg:mt-16 border-solid border-2 border-gray-700 rounded-2xl">
                     <header className="text-xl lg:text-2xl p-5">Table of content</header>
                     <ul className="text-lg px-2">
                         <li className="py-4"><a href="#philosophy">CORPORATE PHILOSOPHY</a></li>
