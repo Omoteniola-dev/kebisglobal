@@ -5,12 +5,13 @@
 
 *{
     font-family: "Roboto Mono";
+    color: #404145;
 }
 
 html,body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: rgb(15, 36, 123);
+    background-color: rgb(255, 255, 255);
 }
 
