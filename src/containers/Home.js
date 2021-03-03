@@ -4,6 +4,7 @@ import ServiceList from "../components/ServiceList";
 import web from "../images/web-programming.svg";
 import app from "../images/app-design.svg";
 import office from "../images/office.svg";
+import training from "../images/training.svg"
 
 class Home extends Component {
     constructor(){
@@ -30,7 +31,7 @@ class Home extends Component {
           },
           {
             "id": 4,
-            "svg": null,
+            "svg": training,
             "Service": "ICT training",
             "text": "We offer ICT training in Microsoft 365 User and Administrator, SharePoint administrator, Power apps administrator, windows server administrator."
           }

@@ -5,7 +5,7 @@ class Faq extends React.Component{
         return(
             <div className="h-screen m-10 pt-4 lg:m-18">
                 <h1 className="text-center font-extrabold text-3xl p-4">FAQ page</h1>
-                <nav className="fixed lg:top-0 lg:left-0 lg:h-full lg:w-3/5 m-10 pt-4 lg:m-18">
+                <nav className="invisible lg:visible fixed lg:top-0 lg:left-0 lg:h-full lg:w-3/5 m-10 pt-4 lg:m-18">
                     
                     <ul className="text-lg px-2">
                         <li className="py-4"><a href="#philosophy">CORPORATE PHILOSOPHY</a></li>

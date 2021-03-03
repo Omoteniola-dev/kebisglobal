@@ -29,16 +29,13 @@ class App extends React.Component {
           </Switch>
           </div>
         </Router>
-        <div className="footer">
-         {
-           //<Footer />
-         }
-         
-         
+        <div>
+          {
+            //<Footer />
+          } 
         </div>
         
-        </div>
-        
+      </div>
       
       
     );
