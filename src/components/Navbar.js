@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ServiceList from "./ServiceList";
-
 const Navbar = () => {
     const handleClick = () => {
         const element = document.querySelector("#navContent");
@@ -35,12 +33,12 @@ const Navbar = () => {
                 
                 </li>
                 <li className="text-blue-700 py-5 px-5 sm:border-b-2 border-transparent hover:text-blue-300 sm:hover:text-blue-300 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
-                <Link to="/About">
+                <Link to="/AboutPage">
                     <p className="text-base antialiased">About Us</p>
                 </Link>
                 </li>
                 <li className="text-blue-700 py-5 px-5 sm:border-b-2 border-transparent hover:text-blue-300 sm:hover:text-blue-300 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
-                <Link to="/" id="dropdown" >
+                <Link to="" id="dropdown" >
                     <p className="text-base antialiased" >Services</p>
                     <div className="dropdown-content">
                         <p>Web design and development</p>

@@ -1,15 +1,14 @@
 import { Component } from "react";
 
-
 class About extends Component {
     //constructor(){}
 
     render(){
         return(
-            <div className="h-screen mt-10 pt-4 lg:mt-18">
+            <div className="relative mt-10 pt-4 lg:mt-18">
                 <h1 className="text-center font-extrabold text-3xl ml-12 p-4"> WHO ARE WE?</h1>
              
-            <main className="p-6 lg:absolute lg:ml-5 lg:ml-60 lg:p-10">
+            <main className="p-6 scroll-none lg:ml-5 lg:ml-60 lg:p-10">
             <div className="bg-gray-100 px-10 py-4">
                 <section class="main-section" id="philosophy">
                     <header className="text-xl font-bold lg:text-3xl text-center">CORPORATE PHILOSOPHY</header>
@@ -123,19 +122,6 @@ class About extends Component {
                     </div>
                 </section>
             </main>
-            <nav className="invisible lg:visible lg:fixed lg:top-0 lg:left-0 lg:h-full lg:w-1/5 lg:mt-16 border-solid border-2 border-gray-700 rounded-2xl">
-                    <header className="text-xl lg:text-2xl p-5">Table of content</header>
-                    <ul className="text-lg px-2">
-                        <li className="py-4"><a href="#philosophy">CORPORATE PHILOSOPHY</a></li>
-                        <li className="py-4"><a href="#Our_Mission">Our Mission</a></li>
-                        <li className="py-4"><a href="#Our_Vision">Our Vision</a></li>
-                        <li className="py-4"><a href="#Our_Philosophy">Our Philosophy</a></li>
-                        <li className="py-4"><a href="#Our_Creed">Our Creed</a></li>
-                        <li className="py-4"><a href="#OUR_PORTFOLIO">OUR PORTFOLIO </a></li>
-                        <li className="py-4"><a href="#MANAGEMENT_TEAM">MANAGEMENT TEAM</a></li>    
-                    </ul>
-                </nav>
-
             </div>
         )
     }

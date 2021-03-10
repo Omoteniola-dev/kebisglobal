@@ -25,7 +25,7 @@ class Contactpage extends React.Component{
     render(){
         const { options } = this.state;
         return (
-            <div className="h-screen m-10 pt-4 lg:pt-8 lg:m-18 ">
+            <div className="m-10 pt-4 lg:pt-8 lg:m-18 ">
                 <h1 className="text-2xl text-center lg:text-4xl font-xl">Reach Out!</h1>
                 <p className="text-sm text-gray-500 text-center">We love questions and feedbacks - We are always happy to help!
                     Here are some ways to contact us.</p>

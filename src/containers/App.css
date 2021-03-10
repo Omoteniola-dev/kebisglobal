@@ -2,10 +2,6 @@ html, body{
     height: 100%;
 }
 
-.preview {
-    background: url();
-    background-size: 100% 100%;
-}
 
 #dropdown{
     position: relative;
@@ -34,18 +30,6 @@ html, body{
 #dropdown:hover > .dropdown-content{
     display: inline-block;
     margin-top: 10vh;
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-}
-
-@media screen and (max-width: 375px){
-    .footer{
-    position: absolute;
-    bottom: 0;
-}
 }
 
 

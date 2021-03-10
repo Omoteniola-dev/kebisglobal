@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "../components/Header";
+import AboutSection from "../components/AboutSection";
 import ServiceList from "../components/ServiceList";
 import web from "../images/web-programming.svg";
 import app from "../images/app-design.svg";
@@ -41,17 +42,17 @@ class Home extends Component {
       render() {
           const { Services } = this.state;
           return(
-            <div>
-                <div className="preview">
+            <div className="relative">
+                <div>
                 <Header />
                 </div>
+                <AboutSection />
                 {
                   //add partner bar component here.
                 }
                 <div>
                 <ServiceList data={Services}/>
                 </div>
-                
             </div>
     )
       }
