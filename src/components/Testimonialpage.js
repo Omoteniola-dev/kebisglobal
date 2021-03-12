@@ -37,7 +37,7 @@ class Testimonialpage extends Component {
   render() {
     const { raters, users} = this.state
     return (
-      <div className="App h-screen m-10 pt-4 lg:pt-8 lg:m-18 ">
+      <div className="m-10 pt-4 lg:pt-8 lg:m-18 ">
         <div className="top">
           <div className="span">
             <p>10,000+ of our users love our service</p>

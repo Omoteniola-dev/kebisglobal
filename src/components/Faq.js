@@ -1,9 +1,8 @@
 import React from "react";
-
 class Faq extends React.Component{
     render(){
         return(
-            <div className="h-screen m-10 pt-4 lg:m-18">
+            <div className="relative m-10 pt-4 lg:m-18">
                 <h1 className="text-center font-extrabold text-3xl p-4">FAQ page</h1>
                 <nav className="invisible lg:visible fixed lg:top-0 lg:left-0 lg:h-full lg:w-3/5 m-10 pt-4 lg:m-18">
                     
@@ -19,9 +18,9 @@ class Faq extends React.Component{
                 </nav>
   
   
-            <main className="absolute ml-5 lg:ml-52 p-10" mb-10>
-                <section class="main-section" id="philosophy">
-                    <header className="text-xl lg:text-3xl text-center">CORPORATE PHILOSOPHY</header>
+            <main className="ml-5 lg:ml-52 p-10">
+                <section class="main-section w-auto" id="philosophy">
+                    <header className="text-xl lg:text-3xl text-center font-bold">CORPORATE PHILOSOPHY</header>
                     <article className="text-xl pb-7">
                     <p>
                     We are an entity that combines experience, 
@@ -29,8 +28,8 @@ class Faq extends React.Component{
                     </p>
                     </article>
                 </section>
-                <section class="main-section" id="Our_Mission">
-                    <header className="text-xl lg:text-3xl text-center">Our Mission</header>
+                <section class="main-section w-auto" id="Our_Mission">
+                    <header className="text-xl lg:text-3xl text-center font-bold">Our Mission</header>
                     <article className="text-xl pb-7">
                     <p>
                     “To  provide  high  quality  information  technology  solutions  with pioneering ideas”  
@@ -38,22 +37,22 @@ class Faq extends React.Component{
 
                     </article>
                 </section>
-                <section class="main-section" id="Our_Vision">
-                    <header className="text-xl lg:text-3xl text-center">Our Vision</header>
+                <section class="main-section w-auto" id="Our_Vision">
+                    <header className="text-xl lg:text-3xl text-center font-bold">Our Vision</header>
                     <article className="text-xl pb-7">
                     <p>
                     To be the best in the information technology industry”
                     </p>
                     </article>
                 </section>
-                <section class="main-section" id="Our_Philosophy">
-                    <header className="text-xl lg:text-3xl text-center">Our Philosophy</header>
+                <section class="main-section w-auto" id="Our_Philosophy">
+                    <header className="text-xl lg:text-3xl text-center font-bold">Our Philosophy</header>
                     <article className="text-xl pb-7">
                     <p>“Cost Effective Solutions, Get it right at the first time”</p>
                     </article>
                 </section>
-                <section class="main-section" id="Our_Creed">
-                    <header className="text-xl lg:text-3xl text-center">Our Creed</header>
+                <section class="main-section w-auto" id="Our_Creed">
+                    <header className="text-xl lg:text-3xl text-center font-bold">Our Creed</header>
                     <article className="text-xl pb-7">
                         <p>
                     “We actualize our philosophy in every work we handle by being different, not just in concepts and strategies we deploy,
@@ -62,8 +61,8 @@ class Faq extends React.Component{
                     </article>
                     
                 </section>
-                <section class="main-section" id="OUR_PORTFOLIO">
-                    <header className="text-xl lg:text-3xl text-center">OUR PORTFOLIO </header>
+                <section class="main-section w-auto" id="OUR_PORTFOLIO">
+                    <header className="text-xl lg:text-3xl text-center font-bold">OUR PORTFOLIO </header>
                     <article className="text-xl pb-7">
                     Since incorporation in Nigeria, we have been opportune to provide our services to clients that are leaders in the various sectors of the economy. 
                     <p className="font-bold text-lg">Specific Tools and Techniques:</p>
