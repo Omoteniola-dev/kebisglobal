@@ -38,8 +38,8 @@ const Navbar = () => {
                 </Link>
                 </li>
                 <li className="text-blue-700 py-5 px-5 sm:border-b-2 border-transparent hover:text-blue-300 sm:hover:text-blue-300 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
-                <Link to="" id="dropdown" >
-                    <p className="text-base antialiased" >Services</p>
+                <Link to="" id="dropdown">
+                    <p className="text-base antialiased">Services</p>
                     <div className="dropdown-content">
                         <p>Web design and development</p>
                         <p>Business process automation</p>
