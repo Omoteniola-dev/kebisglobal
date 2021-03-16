@@ -19,8 +19,13 @@ class Faq extends React.Component{
   
   
             <main className="ml-5 lg:ml-52 p-10">
+<<<<<<< HEAD
                 <section class="main-section w-auto" id="philosophy">
                     <header className="text-xl lg:text-3xl text-center font-bold">CORPORATE PHILOSOPHY</header>
+=======
+                <section class="main-section" id="philosophy">
+                    <header className="text-xl lg:text-3xl text-center">CORPORATE PHILOSOPHY</header>
+>>>>>>> 18288bade66648dbb8fcf23a712b80e36d2d45ee
                     <article className="text-xl pb-7">
                     <p>
                     We are an entity that combines experience, 
