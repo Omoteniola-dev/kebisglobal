@@ -6,7 +6,7 @@ const Testimonial = ({user,image, message}) => {
             <div className="card-header">
                 <img className="img" alt="Per" src={image}/>
                 <p>{user}</p>
-                <p style={{color: "hsl(333, 80%, 67%)"}}>Verified Buyer</p>
+                <p style={{color: "hsl(230, 80%, 67%)"}}>Verified Buyer</p>
             </div>
             <div>
                 {
