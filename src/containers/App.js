@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import Home from "./Home";
-import Testimonialpage from "../components/Testimonialpage";
-import Faq from "../components/Faq";
-import AboutPage from "../components/AboutPage";
-import Footer from "../components/Footer";
-import Contactpage from "../components/Contactpage";
+import Testimonialpage from "../components/TestimonialPage/Testimonialpage";
+import Faq from "../components/Faq/Faq";
+import AboutPage from "../components/AboutPage/AboutPage";
+import Footer from "../components/Footer/Footer";
+import Contactpage from "../components/Contact page/Contactpage";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './App.css';
 
@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     
     return(
-      <div className="">
+      <div>
       <Router>  
           <div>
             <Navbar />
