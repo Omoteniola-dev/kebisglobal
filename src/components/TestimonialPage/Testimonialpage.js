@@ -1,10 +1,10 @@
 import { Component } from 'react';
 import './Testimonialpage.css';
-import RatingList from './RatingList'
+import RatingList from '../Rating/RatingList';
 import TestimonialList from './TestimonialList';
-import anne from '../images/image-anne.jpg';
-import colton from '../images/image-colton.jpg';
-import irene from '../images/image-irene.jpg';
+import anne from '../../images/image-anne.jpg';
+import colton from '../../images/image-colton.jpg';
+import irene from '../../images/image-irene.jpg';
 
 class Testimonialpage extends Component {
   constructor(){

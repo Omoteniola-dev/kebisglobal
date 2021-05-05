@@ -1,0 +1,37 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const arr = [
+    {"text": "Request a quote", "href": "/"},
+    {"text": "Contact us", "href": "/Contactpage"}
+]
+const Header = () => {
+    return (
+        <div className="h-screen pt-4 m-12 lg:m-14">
+            <div className="lg:font-bold text-left mt-8 w-2/3 leading-normal 
+            lg:m-0 lg:font-extrabold lg:w-2/3 lg:leading-snug">
+            <p className="sm:py-8 text-4xl font-bold text-black-900 text-center leading-snug" 
+            style={{"fontSize":"60px", "fontWeight":"bolder"}}> 
+            Better <small style={{"color":"blue"}}>IT solutions</small> for your business</p>
+            <p className="text-sm text-gray-500 w-full lg:w-auto">We are a team of seasoned IT professionals creating cutting edge solutions.</p>
+            <div className="flex flex-wrap lg:flex-wrap lg:w-full ">
+                    {  
+                        arr.map((a) => {
+                            return(
+                                <div className="bg-blue-400 m-2 w-3/4 lg:m-5 p-4 lg:p-4 lg:w-1/4 lg:mt-8 text-center font-bold text-xl rounded-xl hover:bg-blue-500">
+                                    <Link to={a.href}>
+                                        <p className="antialiased font-bold">{a.text}</p>
+                                    </Link>
+                                </div>
+                                
+                            )
+                        })
+                    }
+            </div>
+            </div>
+        </div>
+        
+    )
+}
+
+export default Header;
