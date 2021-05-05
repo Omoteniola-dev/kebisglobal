@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Header from "../components/Header";
-import AboutSection from "../components/AboutSection";
-import ServiceList from "../components/ServiceList";
+import Header from "../components/Hero/Header";
+import AboutSection from "../components/AboutSection/AboutSection";
+import ServiceList from "../components/Services/ServiceList";
 import SponsorsList from "../components/SponsorsList";
-import TestimonialList from "../components/TestimonialList";
+import TestimonialList from "../components/TestimonialPage/TestimonialList";
 import web from "../images/web-programming.svg";
 import app from "../images/app-design.svg";
 import office from "../images/office.svg";
@@ -71,8 +71,9 @@ class Home extends Component {
                 <div>
                 <Header />
                 </div>
-                  <AboutSection />
-                  <SponsorsList />
+                <SponsorsList />
+                <AboutSection />
+                  
                 <div>
                 <ServiceList data={Services}/>
                 </div>
