@@ -13,7 +13,7 @@ const AboutSection = () => {
                 and hitch-free development.
                 Click the read more button to know more about us.<br/>
                 <Link to="./AboutPage">
-                    <button className="p-4 px-8 lg:mt-10 bg-blue-500 font-bold text-xl m-4 hover:bg-blue-600 rounded-xl">READ MORE...</button>
+                    <button className="lg:p-4 p-4 lg:px-8 lg:mt-10 bg-blue-500 font-bold lg:text-xl m-4 hover:bg-blue-600 rounded-xl">READ MORE...</button>
                 </Link>
                 
             </p>
