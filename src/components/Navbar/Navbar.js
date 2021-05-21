@@ -28,18 +28,18 @@ const Navbar = () => {
             <ul className="hidden sm:flex cursor-pointer" id="navContent">
                 <li className="py-5 px-5 hover:text-blue-300 transition duration-200 hover:bg-gray-800 sm:hover:bg-transparent text-blue-700">
                 <Link to="/">
-                    <p className="font-bold antialiased">Home</p>
+                    <p className="antialiased">Home</p>
                 </Link>
                 
                 </li>
                 <li className="text-blue-700 py-5 px-5 sm:border-b-2 border-transparent hover:text-blue-300 sm:hover:text-blue-300 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
                 <Link to="/AboutPage">
-                    <p className="font-bold antialiased">About Us</p>
+                    <p className="antialiased">About Us</p>
                 </Link>
                 </li>
                 <li className="text-blue-700 py-5 px-5 sm:border-b-2 border-transparent hover:text-blue-300 sm:hover:text-blue-300 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
                 <Link to="" id="dropdown" >
-                    <p className="font-bold antialiased" >Services</p>
+                    <p className="antialiased" >Services</p>
                     <div className="dropdown-content">
                         <p>Web design and development</p>
                         <p>Business process automation</p>
@@ -51,24 +51,24 @@ const Navbar = () => {
                 </li>
                 <li className="text-blue-700 py-5 px-5 sm:border-b-2 border-transparent hover:text-blue-300 sm:hover:text-blue-300 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
                 <Link to="/Testimonialpage">
-                    <p className="font-bold antialiased">Testimonials</p>
+                    <p className="antialiased">Testimonials</p>
                 </Link>
                 
                 </li>
                 <li className="text-blue-700 py-5 px-5 sm:border-b-2 border-transparent hover:text-blue-300 sm:hover:text-blue-300 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
                 <Link to="/Faq">
-                    <p className="font-bold antialiased">FAQ</p>
+                    <p className="antialiased">FAQ</p>
                 </Link>
                 
                 </li>
                 <li className="text-gray-400 py-5 px-5 sm:border-b-2 border-transparent hover:text-blue-300 sm:hover:text-blue-300 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
                 <Link to="/Contactpage">
-                    <p className="font-bold antialiased">Contact Us</p>
+                    <p className="antialiased">Contact Us</p>
                 </Link>
                 </li>
                 <li className="text-blue-700 py-4 px-5 sm:border-b-2 border-transparent hover:text-blue-600 sm:hover:text-blue-600 transition hover:bg-gray-900 bg-blue-300 rounded-xl m-1 duration-200">
                     <Link to="/">
-                        <p className="antialiased font-bold">Request a quote</p>
+                        <p className="antialiased">Request a quote</p>
                     </Link>
                 </li>
             </ul>
