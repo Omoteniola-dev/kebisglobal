@@ -9,6 +9,7 @@
 
 html,body{
     background-color: rgb(255, 255, 255);
-    overflow-x: hidden
+    overflow-x: hidden;
+    font-size: 15px;
 }
 
