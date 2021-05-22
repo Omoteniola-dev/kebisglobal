@@ -23,10 +23,10 @@ class App extends React.Component {
           <div>
             <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/AboutPage" component={AboutPage} />
-            <Route path="/Testimonialpage" component={Testimonialpage}/>
-            <Route path="/Faq" component={Faq}/>
-            <Route path="/Contactpage" component={Contactpage}/>
+            <Route path="/about" component={AboutPage} />
+            <Route path="/testimonials" component={Testimonialpage}/>
+            <Route path="/faq" component={Faq}/>
+            <Route path="/contact" component={Contactpage}/>
           </Switch>
           <Footer />
           </div>
