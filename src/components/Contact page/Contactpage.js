@@ -1,10 +1,11 @@
 import React from "react";
 import Form from "./Form";
 class Contactpage extends React.Component{
-    constructor(){
-        super()
-        this.state={
-            options:[{
+    
+    
+    
+    render(){
+        const options = [{
                 id: 1,
                 option: "Talk to Tech support",
                 tag: "Chat with our technical support for tech related issues and advice.",
@@ -15,16 +16,8 @@ class Contactpage extends React.Component{
                 option: "Contact customer support",
                 tag: "We are willing to help you. Don't hesitate to reach out.",
                 action: "CONTACT SUPPORT"
-            }
-            ]
-                
-    }
-}
-
-    
-    render(){
-        const { options } = this.state;
-        return (
+            }]
+            return (
             <div className="m-10 pt-4 lg:pt-8 lg:m-18 ">
                 <h1 className="text-2xl text-center lg:text-4xl font-xl">Reach Out!</h1>
                 <p className="text-sm text-gray-500 text-center">We love questions and feedbacks - We are always happy to help!
@@ -33,10 +26,10 @@ class Contactpage extends React.Component{
                     {
                             options.map((option, i)=>{
                                 return(
-                                    <div className="w-auto lg:w-2/5 bg-blue-400 rounded-xl mt-8 px-4 py-8" key={i}>
+                                    <div className="w-auto lg:w-2/5 bg-blue-800 rounded-xl mt-8 px-4 py-8" key={i}>
                                         <p className="text-xl font-bold lg:text-3xl py-8">{options[i].option}</p>
                                         <p className="py-6">{options[i].tag}</p>
-                                        <p className="w-3/4 mx-8 text-center p-2 bg-blue-300 rounded-2xl hover:bg-blue-700 hover:text-gray-100">{options[i].action}</p>
+                                        <p className="w-3/4 mx-8 text-center p-2 bg-blue-300 rounded-2xl font-bold cursor-pointer">{options[i].action}</p>
                                     </div>
                                 )
                             }
