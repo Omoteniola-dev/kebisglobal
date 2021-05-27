@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const arr = [
     {"text": "Request a quote", "href": "/"},
-    {"text": "Contact us", "href": "/Contactpage"}
+    {"text": "Contact us", "href": "/contact"}
 ]
 const Header = () => {
     return (
@@ -18,7 +18,7 @@ const Header = () => {
                     {  
                         arr.map((a, i) => {
                             return(
-                                <div className="bg-blue-400 m-2 w-3/4 lg:m-5 p-3 lg:p-3 lg:w-1/4 lg:mt-8 text-center rounded-lg hover:bg-blue-500">
+                                <div key={i} className="bg-blue-400 m-2 w-3/4 lg:m-5 p-3 lg:p-3 lg:w-1/4 lg:mt-8 text-center rounded-lg hover:bg-blue-500">
                                     <Link to={a.href}>
                                         <p className="antialiased">{a.text}</p>
                                     </Link>
