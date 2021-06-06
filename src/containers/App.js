@@ -22,11 +22,11 @@ class App extends React.Component {
  
           <div>
             <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" component={AboutPage} />
-            <Route path="/testimonials" component={Testimonialpage}/>
-            <Route path="/faq" component={Faq}/>
-            <Route path="/contact" component={Contactpage}/>
+              <Route path="/" exact component={Home} />
+              <Route path="/about" component={AboutPage} />
+              <Route path="/testimonials" component={Testimonialpage}/>
+              <Route path="/faq" component={Faq}/>
+              <Route path="/contact" component={Contactpage}/>
           </Switch>
           <Footer />
           </div>

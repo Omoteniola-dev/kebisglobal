@@ -38,9 +38,9 @@ class Testimonialpage extends Component {
     const { raters, users} = this.state
     return (
       <div className="m-10 pt-4 lg:pt-8 lg:m-18 ">
-        <div className="top">
+        <div className="h-screen top">
           <div className="span">
-            <p>10,000+ of our users love our service</p>
+            <p className="font-bolder text-blue-800">10,000+ of our users love our service</p>
     
             <p className="text">We only provide great products combined with excellent customer service.
               See what our satisfied customers are saying about our services.</p>

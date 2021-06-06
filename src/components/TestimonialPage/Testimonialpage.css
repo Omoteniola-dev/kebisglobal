@@ -2,7 +2,7 @@
 .top {
   display: flex;
   flex-flow: wrap;
-  margin: 0 20px;
+  margin: 0 50px;
   width: auto;
   justify-content: space-between;
 }
@@ -17,8 +17,6 @@
 }
 .span p:first-child{
   font-size: 35px;
-  font-weight:bolder;
-  color: black;
 }
 
 .text {
@@ -77,7 +75,7 @@
   border-radius: 10px;
   color:hsl(0, 0%, 100%);
   word-wrap: break-word;
-  background: rgb(22, 45, 123);
+  background: rgba(59, 130, 246, 1)
 }
 
 

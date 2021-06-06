@@ -3,10 +3,10 @@ import React from 'react';
 const Testimonial = ({user,image, message}) => {
     return (
         <div className="card">
-            <div className="card-header">
+            <div className="mb-4">
                 <img className="img" alt="Per" src={image}/>
-                <p>{user}</p>
-                <p style={{color: "hsl(230, 80%, 67%)"}}>Verified Buyer</p>
+                <p className="font-bold text-black text-xl">{user}</p>
+                <p className="text-blue-200">Verified Buyer</p>
             </div>
             <div>
                 {

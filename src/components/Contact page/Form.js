@@ -19,7 +19,7 @@ const Form = () => {
                 <span className="px-5 py-1.5 bg-blue-800 text-white rounded-full text-sm font-semibold tracking-tighter">Your Message*</span>
                 <textarea className="text-white py-3 px-5 rounded-2xl bg-gray-200 w-full mt-4 h-48 outline-none appearance-none focus:ring-4 focus:ring-gray-400" name="Message"></textarea>
             </div>
-            <button type="submit" className="text-white p-4 font-bold tracking-tighter rounded-2xl bg-blue-800 w-full mt-8 outline-none appearance-none border-none focus:ring-4 focus:ring-gray-400">Send itt!</button>
+            <button type="submit" className="text-white p-4 font-bold tracking-tighter rounded-2xl bg-blue-800 w-full mt-8 outline-none appearance-none border-none focus:ring-4 focus:ring-gray-400">Send</button>
         </form>
         </div>
     )

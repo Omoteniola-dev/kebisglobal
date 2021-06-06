@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const navLinks = [
+export const navLinks = [
     {"text": "Home", "link": "/"},
     {"text": "About", "link": "/about"},
     {"text": "Testimonials", "link": "/testimonials"},
@@ -23,7 +23,7 @@ const Navbar = () => {
             <nav className="w-screen bg-white lg:px-10 sm:px-10 px-2 sm:flex justify-between border-gray-600 z-10">
                 <div className="flex px-4 justify-between sm:py-0 pb-1">
                     <img
-                     src="https://www.ravilamkoti.codes/static/b7742c4d36a8aad0eae9e469b8af55d5/55abd/logo.png"
+                     src=""
                     alt="Logo"
                     className="h-12"
                     />
@@ -39,7 +39,7 @@ const Navbar = () => {
             <ul className="hidden sm:flex cursor-pointer" id="navContent">
                {
                    navLinks.map((link, i) => {
-                       return <li key={i} className="py-5 px-5 hover:text-blue-300 transition duration-200 hover:bg-gray-800 sm:hover:bg-transparent text-blue-700">
+                       return <li key={i} className="py-5 px-5 lg:hover:text-blue-300 transition duration-200 text-blue-700">
                                     <Link to={link.link}>
                                         <p className="antialiased">{link.text}</p>
                                     </Link>
@@ -56,4 +56,5 @@ const Navbar = () => {
         </div>
       );
 }
+
 export default Navbar;
