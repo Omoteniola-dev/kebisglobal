@@ -5,7 +5,7 @@ import { navLinks } from "../Navbar/Navbar"
 
 const Footer = () => {
     return( 
-            <footer className="mt-10 lg:h-screen mb-20 p-4">
+            <footer className="border-solid lg:h-screen px-4">
                 <div className='w-auto'>
                     <Cta />
                     <div className="mx-10 p-10 flex flex-wrap justify-center lg:justify-between p-2">
@@ -21,7 +21,7 @@ const Footer = () => {
                                 })
                             }
                         </ul>
-                        <div className="">
+                        <div>
                             <img src="" alt="company logo" className="p-5"/>
                             <p className="p-2">72, Victoria Street. Ogudu-Ojota, Lagos. Nigeria</p>
                             <p className="p-2">xxx-xxx-xxx</p>
