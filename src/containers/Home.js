@@ -3,7 +3,7 @@ import Header from "../components/Hero/Header";
 import AboutSection from "../components/AboutSection/AboutSection";
 import ServiceList from "../components/Services/ServiceList";
 import SponsorsList from "../components/SponsorsList";
-import TestimonialList from "../components/TestimonialPage/TestimonialList";
+import TestimonialList from "../pages/TestimonialPage/TestimonialList";
 import web from "../images/web-programming.svg";
 import app from "../images/app-design.svg";
 import office from "../images/office.svg";

@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Home from "./Home";
-import Testimonialpage from "../components/TestimonialPage/Testimonialpage";
-import Faq from "../components/Faq/Faq";
-import AboutPage from "../components/AboutPage/AboutPage";
+import Testimonialpage from "../pages/TestimonialPage/Testimonialpage";
+import Faq from "../pages/Faq/Faq";
+import AboutPage from "../pages/AboutPage/AboutPage";
 import Footer from "../components/Footer/Footer";
-import Contactpage from "../components/Contact page/Contactpage";
+import Contactpage from "../pages/Contact page/Contactpage";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './App.css';
 
