@@ -41,14 +41,14 @@ const Navbar = () => {
                    navLinks.map((link, i) => {
                        return <li key={i} className="py-5 px-5 lg:hover:text-blue-300 transition duration-200 text-blue-700">
                                     <Link to={link.link}>
-                                        <p className="antialiased">{link.text}</p>
+                                        <p className="antialiased" onClick={handleClick}>{link.text}</p>
                                     </Link>
                                 </li>
                    })
                } 
                 <li className="text-blue-700 py-4 px-5 sm:border-b-2 border-transparent hover:text-blue-600 sm:hover:text-blue-600 transition hover:bg-gray-900 bg-blue-300 rounded-xl m-1 duration-200">
                     <Link to="/">
-                        <p className="antialiased">Request a quote</p>
+                        <p className="antialiased" onClick={handleClick}>Request a quote</p>
                     </Link>
                 </li>
             </ul>
